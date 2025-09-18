@@ -1,0 +1,24 @@
+# Arquivos de estado locais do Terraform
+# Contêm o estado da sua infraestrutura e podem ter dados sensíveis.
+*.tfstate
+*.tfstate.backup
+
+# Diretório de plugins e módulos do Terraform
+# Gerado automaticamente pelo 'terraform init'.
+.terraform/
+
+# Arquivos de log de erro
+crash.log
+crash.*.log
+
+# Arquivos de variáveis locais
+# Evita o commit de variáveis que podem ser sensíveis.
+*.tfvars
+*.tfvars.json
+
+# Arquivos de override
+# Usados para sobrescrever configurações localmente.
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
