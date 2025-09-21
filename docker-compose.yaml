@@ -8,7 +8,7 @@ services:
       - "4566:4566"
       - "4510-4559:4510-4559"
     environment:
-      - LOCALSTACK_API_KEY=ls-PUviXisI-6635-QoRO-XARU-4176reVu71ad
+      - LOCALSTACK_API_KEY=SUA_API_KEY
       - EDGE_PORT=4566
       - AWS_DEFAULT_REGION=us-east-1
       - AWS_ACCESS_KEY_ID=test
@@ -43,3 +43,4 @@ volumes:
 networks:
   terraform:
     name: terraform
+
